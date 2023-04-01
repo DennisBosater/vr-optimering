@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffectPrefab: {fileID: 0}
-  fishValue: 1
+  scoreValue: 1
 --- !u!1 &42338563 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1625221395402176, guid: c9951ca0f61167b4593ffe21b0a089c8,
@@ -8009,7 +8009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffectPrefab: {fileID: 0}
-  fishValue: 1
+  scoreValue: 1
 --- !u!114 &1197210605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8603,8 +8603,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7174994263409549186, guid: ece7a437b99b68144b3bf7007f83a31b,
         type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7174994263409549186, guid: ece7a437b99b68144b3bf7007f83a31b,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7174994263409549186, guid: ece7a437b99b68144b3bf7007f83a31b,
+        type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7174994263409549187, guid: ece7a437b99b68144b3bf7007f83a31b,
         type: 3}

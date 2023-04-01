@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 2.72
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.16349237, g: 0.17596069, b: 0.20754719, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 9538f80db67a41849b270d68a8824057, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 59573b088aaea0442bf29e0a0e9d1339, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -7200,7 +7200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 472407217}
   - component: {fileID: 472407216}
-  - component: {fileID: 472407215}
+  - component: {fileID: 472407218}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -7208,17 +7208,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!154 &472407215
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472407214}
-  m_Material: {fileID: 0}
-  m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: d36fb5ae55246bb46b60245e624428a1, type: 2}
-  m_EnableTreeColliders: 1
 --- !u!218 &472407216
 Terrain:
   m_ObjectHideFlags: 0
@@ -7268,6 +7257,19 @@ Transform:
   m_Father: {fileID: 216760672}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &472407218
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472407214}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.740349, y: 0.3197875, z: 6.7394753}
+  m_Center: {x: 45.299824, y: -0.22035289, z: 24.229101}
 --- !u!1001 &482052433
 PrefabInstance:
   m_ObjectHideFlags: 0
