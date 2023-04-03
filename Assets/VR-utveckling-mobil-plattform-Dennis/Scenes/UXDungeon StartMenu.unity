@@ -143,7 +143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c72d0d8054d5314caca8a23ac495ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleEffectPrefab: {fileID: 0}
   scoreValue: 1
 --- !u!1 &42338563 stripped
 GameObject:
@@ -6623,8 +6622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -266, y: 1237}
-  m_SizeDelta: {x: 2600, y: 700}
+  m_AnchoredPosition: {x: -263, y: 1158}
+  m_SizeDelta: {x: 2600, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &523974592
 MonoBehaviour:
@@ -6646,7 +6645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c7dfffee8d34851448130273e35d8979, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 524195bdf6771dd4c9ff9b3e6adc25b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6928,11 +6927,11 @@ RectTransform:
   - {fileID: 2086526256}
   - {fileID: 523974591}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: -2.049}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.368, y: 6.0352654}
+  m_AnchoredPosition: {x: 2.368, y: 5.717265}
   m_SizeDelta: {x: 1596, y: 777.0001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &607119479
@@ -7301,7 +7300,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.9607843, g: 0.7688324, b: 0, a: 1}
+    m_NormalColor: {r: 0.92549026, g: 0.63529414, b: 0.94117653, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -7884,7 +7883,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0ebbcec4dd8e2f040b163f10df7e8382, type: 3}
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 27
     m_FontStyle: 1
     m_BestFit: 0
@@ -8008,7 +8007,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c72d0d8054d5314caca8a23ac495ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleEffectPrefab: {fileID: 0}
   scoreValue: 1
 --- !u!114 &1197210605
 MonoBehaviour:
@@ -8619,7 +8617,7 @@ PrefabInstance:
     - target: {fileID: 7174994263409549187, guid: ece7a437b99b68144b3bf7007f83a31b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7174994263409549187, guid: ece7a437b99b68144b3bf7007f83a31b,
         type: 3}
@@ -8773,23 +8771,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2624711921008498451, guid: 33bbf807a72fea4498ce9ba918521ac0,
         type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75,
+        type: 3}
+    - target: {fileID: 2624711921008498451, guid: 33bbf807a72fea4498ce9ba918521ac0,
+        type: 3}
       propertyPath: m_FontData.m_FontStyle
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2624711921104218717, guid: 33bbf807a72fea4498ce9ba918521ac0,
         type: 3}
       propertyPath: m_Colors.m_NormalColor.b
-      value: 0
+      value: 0.9803922
       objectReference: {fileID: 0}
     - target: {fileID: 2624711921104218717, guid: 33bbf807a72fea4498ce9ba918521ac0,
         type: 3}
       propertyPath: m_Colors.m_NormalColor.g
-      value: 0.81214345
+      value: 0.6627451
       objectReference: {fileID: 0}
     - target: {fileID: 2624711921104218717, guid: 33bbf807a72fea4498ce9ba918521ac0,
         type: 3}
       propertyPath: m_Colors.m_NormalColor.r
-      value: 1
+      value: 0.9607844
       objectReference: {fileID: 0}
     - target: {fileID: 2624711921104219555, guid: 33bbf807a72fea4498ce9ba918521ac0,
         type: 3}
@@ -8916,7 +8920,7 @@ PrefabInstance:
     - target: {fileID: 5242086088797740549, guid: 33bbf807a72fea4498ce9ba918521ac0,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 6.571
+      value: 6.253
       objectReference: {fileID: 0}
     - target: {fileID: 5242086088797740549, guid: 33bbf807a72fea4498ce9ba918521ac0,
         type: 3}
