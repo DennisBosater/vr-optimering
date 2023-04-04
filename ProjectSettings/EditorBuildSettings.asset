@@ -27,10 +27,10 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/VR-utveckling-mobil-plattform-Dennis/Scenes/UXDungeon StartMenu.unity
+    path: Assets/_Hunter's Ascent/Scenes/UXDungeon StartMenu.unity
     guid: 73629e32956c87b499cda2697ffaa2b5
   - enabled: 1
-    path: Assets/VR-utveckling-mobil-plattform-Dennis/Scenes/UXDungeon Level.unity
+    path: Assets/_Hunter's Ascent/Scenes/UXDungeon Level.unity
     guid: 4d096f04247314a4aa4606de822cb333
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 553dde8f9e9b1c448affad55389778ab,
